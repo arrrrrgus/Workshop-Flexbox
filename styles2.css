@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.action-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  gap: 12px;
+  border: 1px solid black;
+  padding: 20px 25px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+
+.action-group {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.primary {
+  background-color: green;
+  color: white;
+}
+
+button {
+  border: 1px solid rgb(114, 114, 114);
+  padding: 10px 12px;
+  border-radius: 8px;
+  background-color: white;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
